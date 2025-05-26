@@ -1,19 +1,23 @@
 <h1 align="center">Hi 👋, I'm Jyotirmoy Paul</h1>
-<h3 align="center">A Flutter enthusiast. Best Execution winner @ Flutter Puzzle Hack. Exploring Go.</h3>
+<h3 align="center">Senior Flutter Developer | Best Execution Winner @ Flutter Puzzle Hack | Building systems from scratch</h3>
 
-- 🌱 I’m currently learning **Go**
+- 🛠️ Currently building **my own Git & DNS server** to understand systems fundamentals
 
-- 🔭 I’m currently working on [Improving this README.md](https://github.com/jyotirmoy-paul/jyotirmoy-paul/blob/main/README.md) & on my personal website
+- 🚀 Working on [Matrix News App](https://www.matrixnews.in) - AI-powered news platform processing thousands of articles daily
+
+- 🎯 Future DIY projects: **Redis, BitTorrent, Kafka** - learning from [CodeCrafters](https://app.codecrafters.io)
+
+- 💼 Senior SDE at fintech, architecting server-driven UI systems and mobile security infrastructure
 
 - 👨‍💻 All of my projects are available at [Github](https://github.com/jyotirmoy-paul)
 
-- 📝 I often write articles on [Medium](https://medium.com/@mr.jyotirmoy.paul)
+- 📝 I write about Flutter, mobile architecture & system design on [Medium](https://medium.com/@mr.jyotirmoy.paul)
 
-- 💬 Ask me about **Flutter, Android, Kotlin**
+- 💬 Ask me about **Flutter, Mobile Architecture, System Design, Native Android**
 
-- 📫 How to reach me **mr.jyotirmoy.paul@gmail.com**
+- 📫 Reach me at **mr.jyotirmoy.paul@gmail.com**
 
-- ⚡ Fun fact **It's rare, but luckily I have found my doppelganger**
+- ⚡ Fun fact **Built an open-source package that made Flutter builds 10x faster!** 
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
