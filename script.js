@@ -55,12 +55,18 @@ function initializeNavigation() {
             }
         });
         
+        // Remove active class from all links first
         navLinks.forEach(link => {
             link.classList.remove('active');
-            if (link.getAttribute('href') === `#${current}`) {
-                link.classList.add('active');
-            }
         });
+        
+        // Add active class only to the current section's link
+        if (current) {
+            const activeLink = document.querySelector(`.nav-link[href="#${current}"]`);
+            if (activeLink) {
+                activeLink.classList.add('active');
+            }
+        }
     }
     
     // Throttle scroll event for performance
@@ -175,13 +181,13 @@ function initializeMobileMenu() {
     });
 }
 
-// Typing effect for hero subtitle
+// Typing effect for hero title
 function initializeTypingEffect() {
-    const subtitle = document.querySelector('.hero-subtitle');
+    const heroTitle = document.getElementById('heroTitle');
     const texts = [
+        'Senior Flutter Developer',
         'Mobile Architecture Expert',
         'System Design Enthusiast',
-        'Senior Flutter Developer',
         'Open Source Contributor',
     ];
     
@@ -194,11 +200,11 @@ function initializeTypingEffect() {
         const currentText = texts[textIndex];
         
         if (isDeleting) {
-            subtitle.textContent = currentText.substring(0, charIndex - 1);
+            heroTitle.textContent = currentText.substring(0, charIndex - 1);
             charIndex--;
             typingSpeed = 50;
         } else {
-            subtitle.textContent = currentText.substring(0, charIndex + 1);
+            heroTitle.textContent = currentText.substring(0, charIndex + 1);
             charIndex++;
             typingSpeed = 100;
         }
