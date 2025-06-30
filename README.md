@@ -1,35 +1,106 @@
-<h1 align="center">Hi 👋, I'm Jyotirmoy Paul</h1>
-<h3 align="center">Senior Flutter Developer | Best Execution Winner @ Flutter Puzzle Hack | Building systems from scratch</h3>
+# 👋 Hi, I'm Jyotirmoy Paul
 
-- 🛠️ Currently building **my own Git & DNS server** to understand systems fundamentals
+**Senior Flutter Developer** | **System Architect** | **Award-Winning Engineer**
 
-- 🚀 Working on [Matrix News App](https://www.matrixnews.in) - AI-powered news platform processing thousands of articles daily
+🚀 Building scalable mobile systems, architecting fintech platforms, and optimizing performance for apps serving **10+ lakh users**.
 
-- 🎯 Future DIY projects: **Redis, BitTorrent, Kafka** - learning from [CodeCrafters](https://app.codecrafters.io)
+---
 
-- 💼 Senior SDE at fintech, architecting server-driven UI systems and mobile security infrastructure
+## 🧠 About Me
 
-- 👨‍💻 All of my projects are available at [Github](https://github.com/jyotirmoy-paul)
+I'm a Bangalore-based software engineer with over 4 years of experience building robust mobile applications using Flutter and Android. I've led engineering efforts in fast-paced fintech companies, won **Flutter Puzzle Hack (Best Execution)**, and created high-impact open-source tools.
 
-- 📝 I write about Flutter, mobile architecture & system design on [Medium](https://medium.com/@mr.jyotirmoy.paul)
+I specialize in:
+- Mobile development with Flutter & Kotlin
+- System architecture and backend integration
+- Security & compliance (PCI DSS, 2FA)
+- Performance optimization & CI/CD pipelines
 
-- 💬 Ask me about **Flutter, Mobile Architecture, System Design, Native Android**
+---
 
-- 📫 Reach me at **mr.jyotirmoy.paul@gmail.com**
+## 🏆 Highlights
 
-- ⚡ Fun fact **Built an open-source package that made Flutter builds 10x faster!** 
+- 🥇 **Best Execution Winner** @ Flutter Puzzle Hack (Google)
+- 📰 **Founder of Matrix News App** – Processes 5,000+ articles/day using vector search, embeddings & Spring Boot
+- ⚡ **Cached Build Runner** – Reduced Flutter build time from minutes to seconds
+- 🔐 **RBI-Compliant SDK** – Built credit card infra used across 3 banks
+- 🎓 Built Redis, Kafka, BitTorrent from scratch via CodeCrafters
+- ✍️ Published author on [Medium](https://medium.com/@mr.jyotirmoy.paul)
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/mr-jyotirmoy-paul" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="mr-jyotirmoy-paul" height="30" width="40" /></a>
-<a href="https://medium.com/@mr.jyotirmoy.paul" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@mr.jyotirmoy.paul" height="30" width="40" /></a>
-<a href="https://www.codechef.com/users/jazzhacker" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="jazzhacker" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/mr_paul" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="mr-paul" height="30" width="40" /></a>
-</p>
+---
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://golang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://kotlinlang.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
+## 💼 Work Experience
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=jyotirmoy-paul&show_icons=true&locale=en&layout=compact" alt="jyotirmoy-paul" /></p>
+### 👨‍💻 Software Engineer III – Uni Cards
+**Feb 2024 – May 2025**
+- Built server-driven UI system for 4 apps (zero manual releases)
+- Replaced MoEngage with in-house analytics (saved $10K/year)
+- Architected RBI-compliant SDK for credit card infra
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=jyotirmoy-paul&" alt="jyotirmoy-paul" /></p>
+### 👨‍💻 SDE II – Uni Cards
+**Jul 2022 – Feb 2024**
+- Achieved PCI DSS compliance across infra stack
+- Flutter-native code blend for VKYC, 2FA, and authentication
+
+### 📹 Android Developer – Jio Platforms
+**Jul 2021 – Jul 2022**
+- Core developer for Jio Meet during pandemic
+- Migrated legacy XML UI to Jetpack Compose
+- Star Employee award winner
+
+### 🧑‍🔧 Freelance Flutter Dev
+**Jul 2020 – Jul 2021**
+- Real-time poker app (Boston)
+- Firebase-powered social platform (NYC)
+
+---
+
+## 🚀 Projects
+
+### 🔷 [Matrix News](https://www.matrixnews.in)
+- Cross-platform app ingesting 5K+ articles/day
+- Vector DB with MongoDB, Spring Boot APIs, and Cloudflare CDN
+- Built ML-based clustering for similar news items
+
+### ⚙️ [Cached Build Runner](https://pub.dev/packages/cached_build_runner)
+- 8000+ downloads, 17 stars on GitHub
+- Dart build optimizer using file hash-based caching
+
+### 🧩 [Planets Puzzle Game](https://fph-planets.web.app)
+- Best Execution @ Flutter Puzzle Hack
+- Featured by Google for top-tier code & animation
+
+### 💻 [System Design Series](https://app.codecrafters.io)
+- Redis, Kafka, BitTorrent – built from scratch
+- Deep dives into networking and protocol design
+
+---
+
+## 💡 Skills
+
+**Mobile**: Flutter, Kotlin, Android  
+**Backend**: Spring Boot, Node.js, MongoDB, Firebase  
+**DevOps & Infra**: AWS S3, CI/CD, Linux  
+**Languages**: Dart, Java, Go, Python, JS  
+**Security**: PCI DSS, RBI Compliance, Encrypted Storage
+
+---
+
+## 📝 Writing
+
+📚 I regularly write about Flutter architecture, system design, and mobile performance on [Medium](https://medium.com/@mr.jyotirmoy.paul).
+
+---
+
+## 📫 Contact
+
+- 🌐 [Website](https://www.jyotirmoypaul.com)
+- 📧 [me@jyotirmoypaul.com](mailto:me@jyotirmoypaul.com)
+- 💼 [LinkedIn](https://linkedin.com/in/mr-jyotirmoy-paul)
+- 🧑‍💻 [GitHub](https://github.com/jyotirmoy-paul)
+- 📊 [LeetCode](https://leetcode.com/mr_paul) | [CodeChef](https://www.codechef.com/users/jazzhacker)
+
+---
+
+> Built with ❤️ by Jyotirmoy Paul  
+> “Crafting meaningful experiences. One line of code at a time.”
