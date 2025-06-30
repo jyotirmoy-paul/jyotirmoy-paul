@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function initializeApp() {
     // Initialize all components
     initializeNavigation();
-    initializeThemeToggle();
+    initializeSystemTheme();
     initializeScrollEffects();
     initializeAnimations();
     initializeMobileMenu();
@@ -79,31 +79,92 @@ function initializeNavigation() {
     });
 }
 
-// Theme toggle functionality
-function initializeThemeToggle() {
-    const themeToggle = document.getElementById('themeToggle');
+// System theme functionality
+function initializeSystemTheme() {
     const body = document.body;
-    const icon = themeToggle.querySelector('i');
     
-    // Check for saved theme preference or default to light mode
-    const savedTheme = localStorage.getItem('theme') || 'light';
-    setTheme(savedTheme);
-    
-    themeToggle.addEventListener('click', function() {
-        const currentTheme = body.getAttribute('data-theme') || 'light';
-        const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-        setTheme(newTheme);
-    });
-    
-    function setTheme(theme) {
-        body.setAttribute('data-theme', theme);
-        localStorage.setItem('theme', theme);
+    // Function to detect and apply system theme
+    function applySystemTheme() {
+        // Check if browser supports matchMedia
+        if (!window.matchMedia) {
+            console.warn('matchMedia not supported, defaulting to light theme');
+            body.setAttribute('data-theme', 'light');
+            return;
+        }
         
-        // Update icon
-        if (theme === 'dark') {
-            icon.className = 'fas fa-sun';
+        // Create media query for dark mode
+        const darkModeQuery = window.matchMedia('(prefers-color-scheme: dark)');
+        const lightModeQuery = window.matchMedia('(prefers-color-scheme: light)');
+        
+        // Debug logging
+        console.log('Dark mode query matches:', darkModeQuery.matches);
+        console.log('Light mode query matches:', lightModeQuery.matches);
+        console.log('User agent:', navigator.userAgent);
+        
+        // Apply theme based on system preference
+        if (darkModeQuery.matches) {
+            body.setAttribute('data-theme', 'dark');
+            console.log('Applied dark theme');
+        } else if (lightModeQuery.matches) {
+            body.setAttribute('data-theme', 'light');
+            console.log('Applied light theme');
         } else {
-            icon.className = 'fas fa-moon';
+            // Fallback for browsers that don't support prefers-color-scheme
+            console.warn('No color scheme preference detected, defaulting to light theme');
+            body.setAttribute('data-theme', 'light');
+        }
+    }
+    
+    // Apply initial system theme
+    applySystemTheme();
+    
+    // Listen for system theme changes with enhanced support
+    if (window.matchMedia) {
+        try {
+            // Create separate listeners for both dark and light mode
+            const darkModeQuery = window.matchMedia('(prefers-color-scheme: dark)');
+            const lightModeQuery = window.matchMedia('(prefers-color-scheme: light)');
+            
+            // Use modern addEventListener if available, fallback to addListener
+            const addListener = (query, handler) => {
+                if (query.addEventListener) {
+                    query.addEventListener('change', handler);
+                } else if (query.addListener) {
+                    // Legacy Safari support
+                    query.addListener(handler);
+                }
+            };
+            
+            addListener(darkModeQuery, function(e) {
+                console.log('Dark mode change detected:', e.matches);
+                if (e.matches) {
+                    body.setAttribute('data-theme', 'dark');
+                }
+            });
+            
+            addListener(lightModeQuery, function(e) {
+                console.log('Light mode change detected:', e.matches);
+                if (e.matches) {
+                    body.setAttribute('data-theme', 'light');
+                }
+            });
+            
+        } catch (error) {
+            console.error('Error setting up theme change listeners:', error);
+        }
+    }
+    
+    // Remove any saved theme preference since we're using system only
+    localStorage.removeItem('theme');
+    
+    // Additional CSS media query fallback
+    if (document.styleSheets && document.styleSheets.length > 0) {
+        try {
+            // Check if CSS media queries are working
+            const testQuery = window.matchMedia('(prefers-color-scheme: dark)');
+            console.log('CSS media query test:', testQuery.media, testQuery.matches);
+        } catch (error) {
+            console.error('CSS media query test failed:', error);
         }
     }
 }
